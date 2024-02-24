@@ -1,0 +1,35 @@
+body {
+  background-color: #1f2028;
+}
+h1,
+h3 {
+  color: rgb(226, 94, 62);
+  font-family: "Karla", sans-serif;
+}
+main {
+  text-align: center;
+}
+.proyectos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: center;
+}
+section {
+  width: 100%;
+  float: left;
+  margin: 0;
+}
+img {
+  max-width: 600px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin-bottom: 15px;
+}
+img:hover {
+  max-width: 650px;
+  position: relative;
+}
